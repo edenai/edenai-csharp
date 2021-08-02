@@ -4,7 +4,7 @@ var request = new RestRequest(Method.POST);
 request.AddHeader("Authorization", "Bearer your_api_key");
 request.AlwaysMultipartFormData = true;
 request.AddParameter("text_to_translate", "'Hello world'");
-request.AddParameter("providers", "[\'ibm\', \'microsoft\', \'aws\', \'google_cloud\']");
+request.AddParameter("providers", "[\'ibm\', \'microsoft\', \'aws\', \'google\']");
 request.AddParameter("source_language", "en-US");
 request.AddParameter("target_language", "fr-FR");
 IRestResponse response = client.Execute(request);
