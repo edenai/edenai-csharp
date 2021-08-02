@@ -1,4 +1,4 @@
-var client = new RestClient("https://api.edenai.run/v1/pretrained/text/text_to_speech");
+var client = new RestClient("https://api.edenai.run/v1/pretrained/audio/text_to_speech");
 client.Timeout = -1;
 var request = new RestRequest(Method.POST);
 request.AddHeader("Authorization", "Bearer your_api_key");
