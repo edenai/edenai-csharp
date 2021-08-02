@@ -1,0 +1,11 @@
+var client = new RestClient("https://api.edenai.run/v1/pretrained/text/automatic_translation");
+client.Timeout = -1;
+var request = new RestRequest(Method.POST);
+request.AddHeader("Authorization", "Bearer your_api_key");
+request.AlwaysMultipartFormData = true;
+request.AddParameter("text_to_translate", "'Hello world'");
+request.AddParameter("providers", "[\'ibm\', \'microsoft\', \'aws\', \'google_cloud\']");
+request.AddParameter("source_language", "en-US");
+request.AddParameter("target_language", "fr-FR");
+IRestResponse response = client.Execute(request);
+Console.WriteLine(response.Content);
