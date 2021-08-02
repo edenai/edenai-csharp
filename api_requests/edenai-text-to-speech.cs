@@ -1,0 +1,11 @@
+var client = new RestClient("https://api.edenai.run/v1/pretrained/text/text_to_speech");
+client.Timeout = -1;
+var request = new RestRequest(Method.POST);
+request.AddHeader("Authorization", "Bearer your_api_key");
+request.AlwaysMultipartFormData = true;
+request.AddParameter("providers", "[\'google\', \'aws\', \'ibm\']");
+request.AddParameter("text", "\'hello world\'");
+request.AddParameter("language", "en-US");
+request.AddParameter("option", "FEMALE");
+IRestResponse response = client.Execute(request);
+Console.WriteLine(response.Content);
