@@ -4,6 +4,6 @@ var request = new RestRequest(Method.POST);
 request.AddHeader("Authorization", "Bearer your_api_key");
 request.AddParameter("providers", "[\'google_cloud\', \'microsoft\', \'aws\', \'ibm\']");
 request.AddFile("files", "/Downloads/example.mp3");
-request.AddParameter("language", "en-US");
+request.AddParameter("objects_to_find", "'squirrel'");
 IRestResponse response = client.Execute(request);
 Console.WriteLine(response.Content);
