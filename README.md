@@ -61,3 +61,15 @@ We also regularly publish various articles with Eden AI news and technical artic
 
 ## Documentation
 To have more information about platform and API use, you can check ou our [documentation](https://api.edenai.run/v1/redoc/)
+
+## SDK
+
+### Getting started
+Install the library from Nuget:
+edenai
+Construct service and set the API key:
+```cs
+var text = new edenai.Text("Bearer YOUR_KEY");
+Access API:
+```cs 
+var result = await text.KeywordExtraction(new Text.KeywordExtraction_Request() { Language = "en-US" , Text = "test tester testing",  KeywordsToFind = new System.Collections.Generic.List<string>() { "test"  }, Providers = new System.Collections.Generic.List<string>() { "microsoft", "ibm" } });
