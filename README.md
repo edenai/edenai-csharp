@@ -61,4 +61,3 @@ We also regularly publish various articles with Eden AI news and technical artic
 
 ## Documentation
 To have more information about platform and API use, you can check ou our [documentation](https://api.edenai.run/v1/redoc/)
-
