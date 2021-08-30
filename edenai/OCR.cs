@@ -13,6 +13,11 @@ namespace edenai
 
         private readonly string API_KEY;
 
+        public OCR()
+        {
+            API_KEY = Keys.ApiKey;
+        }
+
         public OCR(string api_key)
         {
             API_KEY = api_key;

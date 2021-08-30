@@ -10,6 +10,9 @@
     <Authors>Taurius Litvinavicius</Authors>
     <Description>Eden AI simplifies the use and integration of AI technologies by providing a unique API connected to the best AI engines and combined with a powerful management platform. The platform covers a wide range of AI technologies.</Description>
     <Product>Eden AI</Product>
+    <PackageIcon>Logo complet Eden AI.png</PackageIcon>
+    <PackageIconUrl />
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'net48'">
@@ -55,6 +58,10 @@
 
   <ItemGroup>
     <None Include="..\LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+    <None Include="C:\Users\taurius\Downloads\Logo complet Eden AI.png">
       <Pack>True</Pack>
       <PackagePath></PackagePath>
     </None>

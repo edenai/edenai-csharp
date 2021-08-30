@@ -12,6 +12,11 @@ namespace edenai
     {
         private readonly string API_KEY;
 
+        public Text()
+        {
+            API_KEY = Keys.ApiKey;
+        }
+
         public Text(string api_key)
         {
             API_KEY = api_key;
