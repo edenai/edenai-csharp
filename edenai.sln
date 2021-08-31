@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31605.320
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "edenai", "edenai\edenai.csproj", "{CD0EA94D-C157-4E5F-8962-5685A36224AA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "edenai_tests", "edenai_tests\edenai_tests.csproj", "{819781DC-67EC-4758-84E6-D81B58E9103C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{FC29FA43-A25A-495B-9507-F02C24402FA7}"
+	ProjectSection(SolutionItems) = preProject
+		LICENSE.md = LICENSE.md
+		C:\Users\taurius\Downloads\Logo complet Eden AI.png = C:\Users\taurius\Downloads\Logo complet Eden AI.png
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CD0EA94D-C157-4E5F-8962-5685A36224AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD0EA94D-C157-4E5F-8962-5685A36224AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD0EA94D-C157-4E5F-8962-5685A36224AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD0EA94D-C157-4E5F-8962-5685A36224AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{819781DC-67EC-4758-84E6-D81B58E9103C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{819781DC-67EC-4758-84E6-D81B58E9103C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{819781DC-67EC-4758-84E6-D81B58E9103C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{819781DC-67EC-4758-84E6-D81B58E9103C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FFE3EAAD-A989-4C89-A460-67FE6F7F31B3}
+	EndGlobalSection
+EndGlobal

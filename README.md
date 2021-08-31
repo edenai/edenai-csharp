@@ -61,3 +61,40 @@ We also regularly publish various articles with Eden AI news and technical artic
 
 ## Documentation
 To have more information about platform and API use, you can check ou our [documentation](https://api.edenai.run/v1/redoc/)
+
+## SDK
+
+### Getting started
+Install the library from Nuget Manager:
+```
+edenai
+```
+### How to use it
+Construct service and set the API key:
+```cs
+var text = new edenai.Text("Bearer <<YOUR_API_KEY>>");
+```
+OR
+```cs
+edenai.Keys.ApiKey = "Bearer <<YOUR_API_KEY>>";
+var text = new edenai.Text();
+```
+Access API:
+```cs 
+var result = await text.KeywordExtraction(new Text.KeywordExtraction_Request() { Language = "en-US" , Text = "test tester testing",  KeywordsToFind = new System.Collections.Generic.List<string>() { "test"  }, Providers = new System.Collections.Generic.List<string>() { "microsoft", "ibm" } });
+```
+### How to use tests
+You can use edenai_tests for reference on API calls. The naming of tests matches the class and method for specific API call.
+```cs
+[Fact]
+        async void TextToSpeech()
+        {
+            var ed = new edenai.Speech("Bearer <<YOUR_API_KEY>>");
+
+            var result = await ed.TextToSpeech(new edenai.Speech.TextToSpeech_Request() { Text = "test", Language = "en-US", Option = "FEMALE", Providers = new System.Collections.Generic.List<string>() { "google", "ibm" } });
+             
+        }
+```
+If you wish to execute tests in the project, you can do so in Visual Studio:
+- Go to Test and open Test Explorer
+- You can choose to execute all tests or specific test(s)
