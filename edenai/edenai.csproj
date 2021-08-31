@@ -12,7 +12,7 @@
     <Product>Eden AI</Product>
     <PackageIcon>Logo complet Eden AI.png</PackageIcon>
     <PackageIconUrl />
-    <Version>1.0.1</Version>
+    <Version>1.1.0</Version>
   </PropertyGroup>
 
   <ItemGroup Condition="'$(TargetFramework)' == 'net48'">
