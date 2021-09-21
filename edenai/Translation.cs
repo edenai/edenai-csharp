@@ -30,7 +30,7 @@ namespace edenai
 
             try
             {
-                var client = new RestClient("https://api.edenai.run/v1/pretrained/text/automatic_translation");
+                var client = new RestClient("https://api.edenai.run/v1/pretrained/translation/automatic_translation");
 
                 var request = new RestRequest(Method.POST);
                 request.Timeout = -1;
@@ -156,7 +156,7 @@ namespace edenai
 
             try
             {
-                var client = new RestClient("https://api.edenai.run/v1/pretrained/text/language_detection");
+                var client = new RestClient("https://api.edenai.run/v1/pretrained/translation/language_detection");
 
                 var request = new RestRequest(Method.POST);
                 request.Timeout = -1;
