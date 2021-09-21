@@ -497,7 +497,7 @@ namespace edenai
 
             try
             {
-                var client = new RestClient("https://api.edenai.run/v1/pretrained/vision/ocr");
+                var client = new RestClient("https://api.edenai.run/v1/pretrained/ocr/ocr");
 
                 var request = new RestRequest(Method.POST);
                 request.AddHeader("Authorization", API_KEY);
