@@ -64,7 +64,7 @@ namespace Example
             // Configure API key authorization: Bearer
             Configuration.Default.ApiKey.Add("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // Configuration.Default.ApiKeyPrefix.Add("Authorization", "Bearer");
+            Configuration.Default.ApiKeyPrefix.Add("Authorization", "Bearer");
 
             var apiInstance = new AutoMLTextDataApi();
             var projectId = projectId_example;  // string | 
@@ -87,7 +87,7 @@ namespace Example
 <a name="documentation-for-api-endpoints"></a>
 ## Documentation for API Endpoints
 
-All URIs are relative to *https://localhosthttps://api.edenai.run/v1/*
+All URIs are relative to *https://api.edenai.run/v1/*
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
