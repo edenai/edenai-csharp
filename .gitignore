@@ -130,6 +130,8 @@ ClientBin/
 modulesbin/
 tempbin/
 
+bin/
+
 # EPiServer Site file (VPP)
 AppData/
 
@@ -184,3 +186,8 @@ $RECYCLE.BIN/
 
 # Visual Studio 2014 CTP
 **/*.sln.ide
+
+# keep only relevent docs
+docs/InlineResponse*
+
+

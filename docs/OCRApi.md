@@ -1,6 +1,6 @@
 # EdenAI.Api.OCRApi
 
-All URIs are relative to *https://localhosthttps://api.edenai.run/v1/*
+All URIs are relative to *https://api.edenai.run/v1/*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------

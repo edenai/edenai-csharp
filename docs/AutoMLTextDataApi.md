@@ -1,6 +1,6 @@
 # EdenAI.Api.AutoMLTextDataApi
 
-All URIs are relative to *https://localhosthttps://api.edenai.run/v1/*
+All URIs are relative to *https://api.edenai.run/v1/*
 
 Method | HTTP request | Description
 ------------- | ------------- | -------------
@@ -42,7 +42,7 @@ namespace Example
             // Configure API key authorization: Bearer
             Configuration.Default.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // Configuration.Default.AddApiKeyPrefix("Authorization", "Bearer");
+            Configuration.Default.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new AutoMLTextDataApi();
             var projectId = projectId_example;  // string | 
@@ -108,7 +108,7 @@ namespace Example
             // Configure API key authorization: Bearer
             Configuration.Default.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // Configuration.Default.AddApiKeyPrefix("Authorization", "Bearer");
+            Configuration.Default.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new AutoMLTextDataApi();
             var projectId = projectId_example;  // string | 
@@ -176,7 +176,7 @@ namespace Example
             // Configure API key authorization: Bearer
             Configuration.Default.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // Configuration.Default.AddApiKeyPrefix("Authorization", "Bearer");
+            Configuration.Default.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new AutoMLTextDataApi();
             var predictId = predictId_example;  // string | 
@@ -244,7 +244,7 @@ namespace Example
             // Configure API key authorization: Bearer
             Configuration.Default.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // Configuration.Default.AddApiKeyPrefix("Authorization", "Bearer");
+            Configuration.Default.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new AutoMLTextDataApi();
             var predictId = predictId_example;  // string | 
@@ -312,7 +312,7 @@ namespace Example
             // Configure API key authorization: Bearer
             Configuration.Default.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // Configuration.Default.AddApiKeyPrefix("Authorization", "Bearer");
+            Configuration.Default.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new AutoMLTextDataApi();
             var projectId = projectId_example;  // string | 
@@ -380,7 +380,7 @@ namespace Example
             // Configure API key authorization: Bearer
             Configuration.Default.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // Configuration.Default.AddApiKeyPrefix("Authorization", "Bearer");
+            Configuration.Default.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new AutoMLTextDataApi();
             var projectId = projectId_example;  // string | 
@@ -446,7 +446,7 @@ namespace Example
             // Configure API key authorization: Bearer
             Configuration.Default.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // Configuration.Default.AddApiKeyPrefix("Authorization", "Bearer");
+            Configuration.Default.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new AutoMLTextDataApi();
             var projectName = projectName_example;  // string | 
@@ -518,7 +518,7 @@ namespace Example
             // Configure API key authorization: Bearer
             Configuration.Default.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // Configuration.Default.AddApiKeyPrefix("Authorization", "Bearer");
+            Configuration.Default.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new AutoMLTextDataApi();
             var projectId = projectId_example;  // string | 
@@ -582,7 +582,7 @@ namespace Example
             // Configure API key authorization: Bearer
             Configuration.Default.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // Configuration.Default.AddApiKeyPrefix("Authorization", "Bearer");
+            Configuration.Default.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new AutoMLTextDataApi();
             var projectId = projectId_example;  // string | 
@@ -646,7 +646,7 @@ namespace Example
             // Configure API key authorization: Bearer
             Configuration.Default.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // Configuration.Default.AddApiKeyPrefix("Authorization", "Bearer");
+            Configuration.Default.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new AutoMLTextDataApi();
 
@@ -706,7 +706,7 @@ namespace Example
             // Configure API key authorization: Bearer
             Configuration.Default.AddApiKey("Authorization", "YOUR_API_KEY");
             // Uncomment below to setup prefix (e.g. Bearer) for API key, if needed
-            // Configuration.Default.AddApiKeyPrefix("Authorization", "Bearer");
+            Configuration.Default.AddApiKeyPrefix("Authorization", "Bearer");
 
             var apiInstance = new AutoMLTextDataApi();
             var projectId = projectId_example;  // string | 
